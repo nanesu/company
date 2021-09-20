@@ -1,0 +1,161 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+  <link rel="stylesheet" href="css/reset.css">
+  <link rel="stylesheet" href="css/style.css">
+  <link rel="stylesheet" href="css/hover.css">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script> 
+  <script src="https://cdn.jsdelivr.net/bxslider/4.2.12/jquery.bxslider.min.js"></script> 
+  <script>
+   $(function(){
+    $('.bxslider').bxSlider({
+     auto: true, // 自動でスライドショーをスタートさせる　（初期値: false）
+     mode: 'fade', // アニメーションの種類「'horizontal'」「'vertical'」「'fade'」　（初期値: 'horizontal'）
+     speed: 500, // アニメーションのスピード　（初期値: 500）
+     pause: 4000, // 画像の切り替わる間隔　（初期値: 4000）
+     pager: false, // 下部にある画像切り替えボタンの表示・非表示　（初期値: true）
+     controls: false // 左右の矢印の表示・非表示　（初期値: true）
+    });
+   });
+  </script>
+
+</head>
+<body>
+<header>
+  <div class="headerwrap">
+  <h1><img src="images/ecologo.png" alt="ecoロゴ"></h1>
+  <nav>
+    <li><a href="#">企業情報</a></li>
+    <li><a href="#">製品情報</a></li>
+    <li><a href="#">ニュース</a></li>
+    <li><a href="#">お問い合わせ</a></li>
+  </nav>
+</div>
+  <div class="slideShow">
+    <div class="bxslider">
+    <img src="images/photovoltaic-2138992_1280.jpg" alt="スライド画像1" >
+    <img src="images/windmills-984137_1280.jpg" alt="スライド画像2" >
+    <img src="images/main-image1.jpeg" alt="スライド画像3" >
+
+  </div>
+  </div>
+
+</header>
+  <main>
+    <section class="news">
+      <div class="newsbox">
+      <h3>ニュース</h3>
+      <p class="subtitle"> News</p>
+    </div>
+
+<dl class="newsInfo">
+  <div class="line">
+  <dt><time datetime="2021-08-30">2021.8.30</time></dt><dd><a href="#">コロナウイルス感染対策についてのお知らせ</a></dd>
+</div>
+<div class="line">
+  <dt><time datetime="2021-08-29">2021.8.29</time></dt><dd><a href="#">コーポレートサイトリニューアルのお知らせ</a></dd>
+</div>
+  <div class="line">
+  <dt><time datetime="2021-08-29">2021.8.29</time></dt><dd><a href="#">製品Aラインのリニューアル情報</a></dd>
+</div>
+  <div class="line">
+  <dt><time datetime="2021-08-18">2021.8.18</time></dt><dd><a href="#">お盆の期間の受付について</a></dd>
+</div>
+  <div class="line">
+  <dt><time datetime="2021-08-02">2021.8.01</time></dt><dd><a href="#">8月2から8月5日までの３日間、製品の20％割引セール開始</a></dd>
+</div>
+</div>
+<div class="line">
+<dt><time datetime="2021-07-22">2021.7.22</time></dt><dd><a href="#">地方公演実施します</a></dd>
+</div>
+  
+</dl>
+    </section>
+
+
+
+    <section class="about">
+      <div class="discription">
+    <h2>地球にやさしく、<br>あなたの暮らしを豊かに</h2>
+    <p class="subtitle">Economy products</p>
+    <p>私たちの生活を豊かに、だけど地球にも優しく。わたし達のサービスは、そんな気持ちから生まれました。心を込めてお客さまにサービスを届けるために、日々商品の改良に力を込めています。</p>
+    <div class="productsInfo hvr-radial-out">製品情報</div>
+  </div>
+    <div class="infoLink">
+      <img src="images/investment-5241253_640.jpg" alt="企業情報画像" width="400">
+      <img src="images/holding-hands-918990_640.jpg" alt="製品情報画像" width="400">
+     
+    </div>
+  </section>
+
+
+<section class="products">
+  <h3>製品情報</h3>
+  <p class="subtitle">Products</p>
+  
+<div class="productA">
+  <h4>製品Aライン</h4>
+  <div class="poductA_1"><h5><img src="images/shower1.jpeg" alt="シャワー１"></h5><p class="pA">製品名：Ecoプロシャワー</p><p>通常の製品よりも節水25％で業務用に最適。。水圧も十分にでます。</p></div>
+  <div class="poductA_1"><h5><img src="images/shower2.jpeg" alt="シャワー１"></h5><p class="pA">製品名：EcoBeautyシャワー</p><p>通常の製品よりも節水20％。きめの細かい粒子となっておりお肌にも優しく洗浄力抜群です。</p></div>
+  <div class="poductA_1"><h5><img src="images/shower3.jpeg" alt="シャワー１"></h5><p class="pA">製品名：Ecoシャワー</p><p>通常の製品よりも節水22％。節水、水圧にもこだわりたい方へ。</p></div>
+  <div class="poductA_1"><h5><img src="images/shower4.jpeg" alt="シャワー１"></h5><p class="pA">製品名：EcoGreenシャワー</p><p>通常の製品よりも節水16％。手頃なお値段で試してみたい方へ。</p></div>
+</div>
+
+<div class="productB">
+  <h4>製品Bライン</h4>
+  <div class="poductB_1"><h5><img src="images/jag1.jpeg" alt="蛇口１"></h5><p class="pA">製品名：Eco蛇口</p><p>通常の製品よりも節水13％。家庭用です。</p></div>
+  <div class="poductB_1"><h5><img src="images/jag2.jpeg" alt="蛇口2"></h5><p class="pA">製品名：Ecoプロ蛇口</p><p>通常の製品よりも節水16％。飲食店などの業務用です。</p></div>
+  <div class="poductB_1"><h5><img src="images/jag3.jpeg" alt="蛇口3"></h5><p class="pA">製品名：Ecoグリーン蛇口</p><p>通常の製品よりも節水8％。手頃なお値段でお使いいただけます。</p></div>
+</div>
+<div class="productC">
+  <h4>製品Cライン</h4>
+  <div class="poductC_1"><h5><img src="images/solarpanel.jpeg" alt="ソーラーパネル"></h5><p class="pA">製品名：Ecoソーラーパネル</p><p>ご家庭用です。</p></div>
+</div>
+
+
+
+</section>
+
+
+
+
+
+
+
+
+  </main>
+
+  <footer>
+    <div class="below_wrap">
+    <h4><img src="images/companylog.png" alt="ecoロゴ"></h4>
+    <nav class="bottom_nav">
+     <ul>
+       <div class="navLeft">
+      <li><a href="#">企業情報</a></li>
+      <li><a href="#">製品情報</a></li>
+      <li><a href="#">ニュース</a></li>
+      <li><a href="#">採用情報</a></li>
+    </div>
+    <div class="navRight">
+      <li><a href="#">社長メッセージ</a></li>
+      <li><a href="#">プライバシー</a></li>
+      <li><a href="#">お問い合わせ</a></li>
+    </div>
+    <div class="navBottom">
+      <li><a href="#"><img src="images/iconmonstr-twitter-5-48.png" alt="twitter"></a></li>
+      <li><a href="#"><img src="images/iconmonstr-instagram-15-48.png" alt="instagram"></a></li>
+      <li><a href="#"><img src="images/iconmonstr-facebook-5-48.png" alt="facebook"></a></li>
+    </div>
+     </ul>
+    </nav>
+  </div>
+    <p class="copyright"><small>&nbsp;&copy;ecologyPfort Inc.AllRights Reserved.</small></p>
+  </footer>
+
+</body>
+</html>
